@@ -1,4 +1,4 @@
-package com.kh.day2.exercise;
+package com.kh.day02.exercise;
 //ctrl + space¹Ù
 import java.util.Scanner;
 

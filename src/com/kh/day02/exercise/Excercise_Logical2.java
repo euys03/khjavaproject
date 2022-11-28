@@ -1,4 +1,4 @@
-package com.kh.day2.exercise;
+package com.kh.day02.exercise;
 //ctrl + space바
 import java.util.Scanner;
 
@@ -19,6 +19,7 @@ public class Excercise_Logical2 {
 		*/
 		
 		//입력한 문자가 대문자인지 소문자인지 확인하세요!
+		// *** 문자는 nextInt()와 같은 것은 없다. (nextChar()존재 xxx) ***
 		Scanner sc = new Scanner(System.in);
 		//가이드 메시지
 		System.out.print("문자를 입력해주세요 : ");

@@ -1,4 +1,4 @@
-package com.kh.day2.exercise;
+package com.kh.day02.exercise;
 
 public class HelloWorld {
 	public static void main(String [] args) {
