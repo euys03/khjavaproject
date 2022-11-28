@@ -1,4 +1,4 @@
-package com.kh.day3.exscanner;
+package com.kh.day03.exscanner;
 
 import java.util.Scanner;
 

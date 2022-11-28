@@ -1,5 +1,5 @@
 // 형 변환 (자동/강제) _자료형ver.
-package com.kh.day3.typetrans;
+package com.kh.day03.typetrans;
 
 public class TestTypeTrans1 {
 	public static void main (String [] args) {

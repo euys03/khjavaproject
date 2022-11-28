@@ -1,4 +1,4 @@
-package com.kh.day2.exscanner;
+package com.kh.day02.exscanner;
 //ctrl + space¹Ù
 import java.util.Scanner;
 

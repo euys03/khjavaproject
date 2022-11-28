@@ -1,4 +1,4 @@
-package com.kh.day2.operator;
+package com.kh.day02.operator;
 
 public class Exam_Comparision {
 	public static void main (String [] args) {

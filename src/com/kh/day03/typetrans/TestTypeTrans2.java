@@ -1,5 +1,5 @@
 // 형 변환 _ type(byte, int 등) ver.
-package com.kh.day3.typetrans;
+package com.kh.day03.typetrans;
 
 public class TestTypeTrans2 {
 	public static void main (String [] args) {

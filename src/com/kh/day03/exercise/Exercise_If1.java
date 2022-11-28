@@ -1,4 +1,4 @@
-package com.kh.day3.exercise;
+package com.kh.day03.exercise;
 
 import java.util.Scanner;
 

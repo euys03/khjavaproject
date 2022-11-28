@@ -1,5 +1,5 @@
 // 삼항연산자
-package com.kh.day3.condition;
+package com.kh.day03.condition;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.kh.day2.variable;
+package com.kh.day02.variable;
 
 public class TestVariable {
 	public static void main (String [] args) {
