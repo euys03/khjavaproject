@@ -1,4 +1,5 @@
 // 실행은 Run.java 에서.
+// 배열은 for문과 같이 쓴다.
 
 package com.kh.day05.exercise;
 
@@ -97,7 +98,7 @@ public class Exercise_Array {
 			//System.out.print(origin[i]);
 			// 반복문의 횟수는 반복문의 크기만큼 돌려야 함.
 			// index이용해서 origin에 접근
-			// mombernum에 인덱스 값을 잘라서 넣어야 한다.
+			// memberNum에 인덱스 값을 잘라서 넣어야 한다.
 		}
 		// 배열을 복사
 		// char [] copy = origin;		// 얕은 복사, 이러면 의도한 것이 아니다.
@@ -117,4 +118,38 @@ public class Exercise_Array {
 		}
 	}
 	
+	
+	// forEach문1
+	public void exercise6() {
+		/* 배열의 '원래' 할당 및 초기화 방법
+		int [] nums = new int[3];
+		nums[0] = 1;
+		nums[1] = 2;
+		nums[2] = 3;
+		*/
+		int [] nums = {1, 2, 3, 4, 5};	// 할당과 초기화를 '동시에.'
+		// for문을 (int i = 0; ~;~;)보다 편리하게 출력하는 방법.
+		for(int num : nums) {	// 'nums'에 들어있는 숫자들을 순서대로 'num'에 넣는 것.
+				// 인덱스값을 컨트롤할 시(짝수만 출력 등)에는 for-each문이 사용 불가.
+				// <for문 간단하게 쓰는 방법.>
+				// 윗줄에서 int 썼으므로 int써주고, nums썼으므로 num's'써준다.
+				// num 자리는 윗줄의 nums랑 다른 변수명이기만 하면 된다.
+			System.out.print(num + " ");
+		}
+	}
+	
+	// forEach문2
+	public void exercise7() {
+		/* 원래 for문 사용방법.
+		String [] fruits = {"딸기", "복숭아", "포도", "체리", "망고"};
+		for(int i = 0; i < fruits.length; i++) {
+			System.out.print(fruits[i] + " ");
+		}
+		*/ 
+		// forEach문으로 편리하게 사용하는 방법.
+		String [] fruits = {"딸기", "복숭아", "포도", "체리", "망고"};
+		for(String fruit : fruits) {
+			System.out.print(fruit + " ");
+		}
+	}
 }
